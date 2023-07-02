@@ -7,7 +7,7 @@ const Home = () => {
 	return (
 		<div className="text-center">
 			<Navbar />
-			<div className="container-fluid">
+			<div className="container-fluid px-5 my-3">
 				<Jumbotron />
 				<div className="row">
 					<div className="col">
@@ -20,9 +20,12 @@ const Home = () => {
 						<Card cardText="This card does have some text. I guess you're not a goober" />
 					</div>
 					<div className="col">
-						<Card cardTitle="Custom Title" />
+						<Card imgURL="https://media.tenor.com/kQleiyX5Vb4AAAAC/oblivion-the-elder-scrolls.gif" cardTitle="Farewell" />
 					</div>
 				</div>
+			</div>
+			<div className="bg-dark p-3 text-center">
+				<p className="text-light mb-0">Footer 2023</p>
 			</div>
 		</div>
 	);
